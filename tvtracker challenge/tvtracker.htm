@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TV Tracker Challenge</title>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+<body>
+    <form method="post" action="tvtracker.php">
+        <div>
+            <p>
+                <label id="lblFirstName" class="label label-info">First Name: </label><br />
+                <input type="text" id="txtFirstName" name="txtFirstName" maxlength="10" size="10" class="form-control"><br /><br />
+                <label id="lblLastName" class="label label-info">Last Name: </label><br />
+                <input type="text" id="txtLastName" name="txtLastName" maxlength="10" size="10" class="form-control"><br /><br />
+                <label id="lblBirthYear" class="label label-info">Birth Year: </label><br />
+                <input type="text" id="txtBirthYear" name="txtBirthYear" maxlength="4" size="4" class="form-control"><br /><br />
+                <label id="lblSchoolYear" class="label label-info">Current School Year: </label><br />
+                <input type="text" id="txtCurrentSchoolYear" name="txtCurrentSchoolYear" maxlength="10" size="10" class="form-control"><br /><br />
+                <label id="lblBedTime" class="label label-info">Bed Time: </label><br />
+                <input type="text" id="txtBedTime" name="txtBedTime" maxlength="6" size="6" class="form-control"><br /><br />
+                <label id="lblWakeupTime" class="label label-info">Wakeup Time: </label><br />
+                <input type="text" id="txtWakeupTime" name="txtWakeupTime" maxlength="6" size="6" class="form-control"><br /><br />
+                <label id="lblHomeworkTime" class="label label-info">Time spent on homework per day (hours): </label><br />
+                <input type="text" id="txtHomeworkTime" name="txtHomeworkTime" maxlength="2" size="2" class="form-control"><br /><br />
+                <label id="lblTVTime" class="label label-info">TV/Youtube/Netflix time per day: </label><br />
+                <input type="text" id="txtTVTime" name="txtTVTime" maxlength="2" size="2" class="form-control"><br /><br />
+                <label id="lblComputerTime" class="label label-info">Computer/Console Time: </label><br />
+                <input type="text" id="txtComputerTime" name="txtComputerTime" maxlength="2" size="2" class="form-control"><br /><br />
+                <label id="lblFamilyTime" class="label label-info">Family/Friends Time: </label><br />
+                <input type="text" id="txtFamilyTime" name="txtFamilyTime" maxlength="2" size="2" class="form-control"><br /><br />
+                <label id="lblOutsideTime" class="label label-info">Outside Time: </label><br />
+                <input type="text" id="txtOutsideTime" name="txtOutsideTime" maxlength="2" size="2" class="form-control"><br /><br />
+            
+            </p>
+            <p>
+                <button type="submit" id="calculate" class="btn btn-info" name="calculate" >Submit</button><br /><br />
+            </p>
+        </div>
+    </form>
+</body>
+</html>
